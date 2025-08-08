@@ -331,7 +331,7 @@ class SUcheduleCourseScraper:
         data = {"courses": courses,
                 "instructors": instructors,
                 "places": places}
-        with open("data.min.json", "w", encoding='utf-8') as file:
+        with open("data-v60.min.json", "w", encoding='utf-8') as file:
             json.dump(data, file, ensure_ascii=False)
 
 
